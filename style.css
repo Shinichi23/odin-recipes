@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+}
+
+h1 {
+  color: greenyellow;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.list {
+  font-size: 30px;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  color: ghostwhite;
+  text-decoration: none;
+}
+
+a:hover {
+  color: greenyellow;
+}
