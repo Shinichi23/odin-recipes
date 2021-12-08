@@ -1,5 +1,6 @@
 * {
   background-color: black;
+  margin: 0;
 }
 
 h1 {
@@ -9,12 +10,22 @@ h1 {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin-top: 30px;
 }
 
 .list {
   font-size: 30px;
   list-style: none;
-  text-align: center;
+  padding: 0%;
+  display: flex;
+  margin-top: 10%;
+}
+
+li {
+  border: 2px solid whitesmoke;
+  padding: 15px;
+  border-radius: 20px;
+  margin: auto;
 }
 
 a {
